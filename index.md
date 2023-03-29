@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "52.524291"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "13.376529"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "16, 25, 26, 30 May 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "09:00 - 14:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "09:30 - 14:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2023-05-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2023-05-30        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Magnus Hagdorn"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -436,6 +436,15 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+{% comment %}
+CHARITE notes
+{% endcomment %}
+<p>
+Instead of using your own installation of the tools you can use the Charité HPC cluster for the workshop. In order to be able to reach the cluster you will need to apply for <a href="https://git.bihealth.org/charite-sc-public/sc-wiki/-/wikis/Resources/User-Documentation/User-Guide:-HPC-@Charite#connection-to-the-cluster-from-outside-the-charite-network-over-vpn">VPN permissions</a> (Antrag O) or use a Charité virtual desktop.
+</p>
+
+
 
 {% comment %}
 For online workshops, the section below provides:
